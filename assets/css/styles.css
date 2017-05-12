@@ -1,0 +1,110 @@
+body {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    font-family: "open-sans", sans-serif;
+    color: #3a3a3a;
+    font-weight: 200;
+    margin: auto;
+
+}
+
+
+
+div {
+	display: block;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+    }
+
+.headers{
+	margin-left: 10px;
+	margin-top: 20px;
+
+}
+
+.headerone {
+	width: 16%;
+	float: left;
+	margin:0;
+	padding:0;
+
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: inline;
+}
+
+.headerone img{
+	margin-top: 10px;
+}
+
+.headertwo p, .headertwo p, 
+.headerthree p, .headerfour p, .headerfive p, .headersix p{
+	width: auto;
+}
+
+.headerthree, .headerfour, .headerfive, .headersix{
+	text-align: right;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: inline;
+}
+
+.navigation {
+	clear: left;
+	width: 100%;
+	position: relative;
+	border: 1px solid #ff3f3f;
+	text-align: center;
+	height: 30px;
+	background-color: #ff3f3f
+}
+
+ul{
+    display: inline;
+}
+
+li{
+    display: inline;
+}
+
+.container{
+	margin-top: 20px;
+	width: 1200px;
+
+}
+
+.leftcontainer{
+	margin-top: 20px;
+	width: 65%;
+	float: left;
+	padding-left: 30px;
+}
+
+.rightcontainer{
+	margin-top: 20px;
+	width: 25%;
+	float: left;
+	margin-left: 5%;
+}
+
+
+.firstleftcontainer{
+	width:25%;
+	float:left;
+	margin-right: 70px;
+}
+
+.bodytext{
+	clear:left;
+	padding-top: 20px;
+	margin-left: 40px;
+}
